@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "loans",
-    "description": "Describe the API",
+    "description": "Describe the API-------LONG@!@@@@@@@@@@@@@@@@@@@@@@\n@@@@@@@@@@@",
     "contact": {
       "name": "sudhish madhavan",
       "url": "/no/url",
@@ -26,6 +26,19 @@
           "in": "query"
         }
       ]
+    },
+    "/basepath/path1": {
+      "get": {
+        "description": "This is a new get",
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/Name"
+            }
+          },
+          "403": {}
+        }
+      }
     }
   },
   "tags": [
