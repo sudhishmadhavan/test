@@ -5,7 +5,7 @@
     "description": "Describe the API",
     "contact": {
       "name": "sudhish madhavan",
-      "url": "",
+      "url": "/no/url",
       "email": "idishy1@gmail.com"
     },
     "version": "1.0.0"
@@ -35,13 +35,7 @@
     }
   ],
   "definitions": {
-    "Name": {
-      "properties": {
-        "dishprop": {
-          "description": "Property values"
-        }
-      }
-    }
+    "Name": {}
   },
   "securityDefinitions": {
     "OAuth 2.0": {
