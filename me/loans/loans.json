@@ -39,6 +39,11 @@
           "403": {}
         }
       }
+    },
+    "/basepath/path2": {
+      "get": {
+        "description": "desc"
+      }
     }
   },
   "tags": [
