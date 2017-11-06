@@ -46,9 +46,10 @@
   "securityDefinitions": {
     "OAuth 2.0": {
       "type": "oauth2",
+      "description": "Security --- Description",
       "flow": "accessCode",
       "authorizationUrl": "/url/auth",
-      "tokenUrl": "/url/auth",
+      "tokenUrl": "/url/token",
       "scopes": {}
     }
   }
