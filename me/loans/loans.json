@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "loans",
-    "description": "",
+    "description": "Describe the API",
     "contact": {
       "name": "sudhish madhavan",
       "url": "",
