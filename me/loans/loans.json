@@ -37,7 +37,9 @@
   "definitions": {
     "Name": {
       "properties": {
-        "dishprop": {}
+        "dishprop": {
+          "description": "Property values"
+        }
       }
     }
   },
@@ -45,8 +47,8 @@
     "OAuth 2.0": {
       "type": "oauth2",
       "flow": "accessCode",
-      "authorizationUrl": "Oauth URL",
-      "tokenUrl": "Token URL",
+      "authorizationUrl": "/url/auth",
+      "tokenUrl": "/url/auth",
       "scopes": {}
     }
   }
