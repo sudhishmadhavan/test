@@ -3,6 +3,11 @@
   "info": {
     "title": "loans",
     "description": "",
+    "contact": {
+      "name": "sudhish madhavan",
+      "url": "",
+      "email": "idishy1@gmail.com"
+    },
     "version": "1.0.0"
   },
   "paths": {
@@ -23,11 +28,26 @@
       ]
     }
   },
+  "tags": [
+    {
+      "name": "#dish",
+      "description": ""
+    }
+  ],
   "definitions": {
     "Name": {
       "properties": {
         "dishprop": {}
       }
+    }
+  },
+  "securityDefinitions": {
+    "OAuth 2.0": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "Oauth URL",
+      "tokenUrl": "Token URL",
+      "scopes": {}
     }
   }
 }
